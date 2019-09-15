@@ -24,22 +24,6 @@
             "url": "http://localhost:3000",
             "webRoot": "${workspaceFolder}"
         },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "프로그램 시작",
-            "program": "${workspaceFolder}/src/index.ts",
-            "cwd": "${workspaceRoot}",
-            "outFiles": [],
-            "sourceMaps": true
-          },
-          {
-            "type": "node",
-            "request": "attach",
-            "name": "프로세스에 연결",
-            "port": 5858,
-            "outFiles": [],
-            "sourceMaps": true
-          }
+
     ]
 }
